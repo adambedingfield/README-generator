@@ -1,5 +1,8 @@
-const fs = require('fs');
 const inquirer = require('inquirer');
+
+const { writeREADME } = require('./utils/generate-README.js');
+
+const generateREADME = require('./src/template.js');
 
 const promptUser = () => {
     return inquirer.prompt ([
@@ -41,7 +44,37 @@ const promptUser = () => {
             name: 'instructions',
             message: 'What are the test instructions?'
         },
+        {
+            type: 'input',
+            name: 'github',
+            message: 'What is your GitHub username?'
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is your email?'
+        },
+        {
+            type: 'confirm',
+            name: 'confirm',
+            message: 'Would you like to enter extra information on how to reach you?',
+            default: true
+        },
+        {
+            type: 'input',
+            name: 'extraInfo',
+            message: 'Provide extra information on how to reach you.',
+            when: ({ confirm }) => {
+              if (confirm) {
+                return true;
+              } else {
+                return false;
+              }
+            }
+        },
     ])
 }
 
 promptUser()
+  .then(generateREADME)
+  .then(writeREADME)
