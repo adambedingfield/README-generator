@@ -1,6 +1,6 @@
-# Hello ![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)<br>
+# adam ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)<br>
 ## Description<br>
-This is a homework assignment.<br>
+ok<br>
 ## Table of Contents<br>
 * [Installation](#installation)<br>
 * [Usage](#usage)<br>
@@ -9,17 +9,17 @@ This is a homework assignment.<br>
 * [Tests](#tests)<br>
 * [Questions](#questions)<br>
 ## Installation<br>
-Installation Info.
+ef
 ## Usage<br>
-Usage Info.
+fe
 ## License<br>
-This project is licensed under Eclipse.<br>
-Link: https://opensource.org/licenses/EPL-1.0
+This project is licensed under Apache.<br>
+Link: https://opensource.org/licenses/Apache-2.0
 ## Contributing<br>
-Contribution Info.
+e
 ## Tests<br>
-Test Info.
+e
 ## Questions<br>
-GitHub: https://github.com/adambedingfield<br>
-Email: adamcbedingfield@gmail.com<br>
-I usually respond to emails between 8AM-5PM.
+GitHub: https://github.com/e<br>
+Email: e<br>
+

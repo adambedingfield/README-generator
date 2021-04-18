@@ -89,5 +89,6 @@ promptUser()
       return generateREADME(answers)
   })
   .then (pageText => {
+      console.log("README created in the dist folder!");
       return writeREADME(pageText)
   })
