@@ -1,6 +1,6 @@
- # adams thing<br>
+# Hello ![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)<br>
 ## Description<br>
-its a very cool thing<br>
+This is a homework assignment.<br>
 ## Table of Contents<br>
 * [Installation](#installation)<br>
 * [Usage](#usage)<br>
@@ -9,16 +9,17 @@ its a very cool thing<br>
 * [Tests](#tests)<br>
 * [Questions](#questions)<br>
 ## Installation<br>
-google<br>
+Installation Info.
 ## Usage<br>
-for stuff
+Usage Info.
 ## License<br>
+This project is licensed under Eclipse.<br>
+Link: https://opensource.org/licenses/EPL-1.0
 ## Contributing<br>
-user must be cool
+Contribution Info.
 ## Tests<br>
-test inctructions
+Test Info.
 ## Questions<br>
-ooga
-idk
-undefined
-## Installation<br>
+GitHub: https://github.com/adambedingfield<br>
+Email: adamcbedingfield@gmail.com<br>
+I usually respond to emails between 8AM-5PM.

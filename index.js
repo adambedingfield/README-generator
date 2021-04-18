@@ -25,6 +25,12 @@ const promptUser = () => {
             message: 'Describe your project.'
         },
         {
+            type: 'list',
+            name: 'license',
+            message: 'Which license are you using?',
+            choices: ['Apache', 'Boost', 'BSD', 'Eclipse']
+        },
+        {
             type: 'input',
             name: 'installation',
             message: 'How do you install your project?'
@@ -77,6 +83,9 @@ const promptUser = () => {
 
 promptUser()
   .then(answers => {
+      if(!answers.extraInfo) {
+          answers.extraInfo = '';
+      }
       return generateREADME(answers)
   })
   .then (pageText => {
