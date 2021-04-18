@@ -71,10 +71,14 @@ const promptUser = () => {
                 return false;
               }
             }
-        },
+        }
     ])
 }
 
 promptUser()
-  .then(generateREADME)
-  .then(writeREADME)
+  .then(answers => {
+      return generateREADME(answers)
+  })
+  .then (pageText => {
+      return writeREADME(pageText)
+  })
